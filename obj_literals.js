@@ -36,3 +36,5 @@ console.log(user['blogs'][1]) //accessing the second blog title specifically
 user['location'] = 'Peru'
 //check to see if changed
 console.log(user['location'])
+
+console.log(typeof user);
