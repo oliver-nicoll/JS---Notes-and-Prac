@@ -6,7 +6,13 @@ let user = {
     age: 30, // each key/value pair is on each line for better readability purposes
     email: 'toptest@test.com',
     location: 'Brazil',
-    blogs: ['Why Panera mac and cheese is the best', '10 things to know when...']
+    blogs: ['Why Panera mac and cheese is the best', '10 things to know when...'],
+    login: function(){
+        console.log('the user logged in');
+    },
+    logout: function(){
+        console.log('the user logged out')
+    }
 };
 
 // test it out, either run "node FILENAME.js" in terminal or open FILENAME.html that is connected to the file:
@@ -38,3 +44,10 @@ user['location'] = 'Peru'
 console.log(user['location'])
 
 console.log(typeof user);
+
+// test out method login - invoke the method with parenthesis, defined on an object
+
+user.login();
+user.logout();
+
+
