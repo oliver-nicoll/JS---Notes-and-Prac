@@ -12,6 +12,13 @@ let user = {
     },
     logout: function(){
         console.log('the user logged out')
+    },
+    logBlogs: function(){
+        //onsole.log(this.blogs)
+        console.log('this user has written the following blogs:');
+        this.blogs.forEach(blog => {
+            console.log(blog)
+        });
     }
 };
 
@@ -50,4 +57,25 @@ console.log(typeof user);
 user.login();
 user.logout();
 
+//similar to this example:
 
+const name = 'test name';
+name.toUpperCase();
+
+
+//understanding THIS in JavaScript - Blogs:
+
+/*
+If you don't use this, it will throw an error that blog isn't defined in the method
+
+The this keyword is a context obj. that represents the context in which the current code 
+is executed - depending on where and how we use it the value will be different
+
+If this is used in the root of the document, then it will refer to the global context which 
+is called the window obj. - LOCATION OF THIS MATTERS
+*/
+
+user.logBlogs();
+
+
+//Arrow Funtions work different with THIS keyword - the value of this won't change from the value it was at the point in the code where it was invoked (scope)
