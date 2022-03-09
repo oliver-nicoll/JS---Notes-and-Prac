@@ -34,4 +34,13 @@
                 unpublish
                 delete
 
+## Object Literals
+
+    See file: obj_literals.js for examples and notes
+
+## Math Object
+
+    See file: math_obj.js for examples and notes
+
+
         
