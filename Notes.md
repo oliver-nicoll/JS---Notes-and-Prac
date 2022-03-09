@@ -58,5 +58,28 @@
 
     Symbol: Used with objects
 
+## Primative vs Reference Types
 
+    Have to do with How they are stored in memory. 
+
+
+        Primitive Types:
+            numbers
+            strings
+            booleans
+            null
+            undefined
+            symbols
+
+                Stored in the stack - limited space and quicker
+
+        Reference Types:
+            All types of objects
+            object literals
+            arrays
+            functions
+            dates
+            all other objects
+
+                Stored in the heap - but slower than the stack
         
