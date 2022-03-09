@@ -42,5 +42,21 @@
 
     See file: math_obj.js for examples and notes
 
+## JavaScript Data Types:
+
+    Number: 1, 2, 3, 100, 3.14
+
+    String: "Hello World", 'test@email.com'
+
+    Boolean: true/ false
+
+    Null: Explicitly set a variable with no value
+
+    Undefined: For variables that have not yet been defined
+
+    Object: Arrays, Object Literals, Functions, Dates etc.
+
+    Symbol: Used with objects
+
 
         
